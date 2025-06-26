@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="fp1.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  </head>
+  <body class="chewy">
+    <div class="clock">
+      <div class="display">
+        <div class="clock_screen">
+          <span id="hr">00</span>
+          <span>:</span>
+          <span id="min">00</span>
+          <span>:</span>
+          <span id="sec">00</span>
+          <div class="lil_box"></div>
+        </div>
+        <div class="detail">
+          <div class="date">
+            <div id="day">22</div>
+            <div id="month">3</div>
+            <div id="year">2007</div>
+          </div>
+          <div class="ampm">
+            <span id="ampm">PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_box">
+        <div class="theme_container">
+          <div class="btn yellow"></div>
+          <div class="btn blue"></div>
+          <div class="btn red"></div>
+        </div>
+      </div>
+    </div>
+    <div class="clock-shadow"></div>
+
+    <div class="button_container ">
+      <button class="chewy" id="start" onclick="start()">Start</button>
+      <button class="chewy" id="stop" onclick="stop()">Stop</button>
+    </div>
+
+    <script src="/fp1.js"></script>
+  </body>
+</html>
